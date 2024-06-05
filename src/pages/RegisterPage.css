@@ -1,0 +1,74 @@
+form{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+section {
+    height: 100vh;
+    width: auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.fields {
+    width: -webkit-fill-available;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #00000063;
+    align-self: center;
+    justify-self: center;
+    padding: 1rem;
+    width: calc(50% - 2rem);
+    height: calc(100% - 2rem);
+}
+fieldset {
+    display: grid;
+    grid-template-areas:
+        'lfirstname iname'
+        'llastname ilastname'
+        'lemail iemail'
+        'ltel itel'
+        'lpass ipass'
+        'lpass2 ipass2'
+        'btnreg btnreg';
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(7, max-content);
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    text-align: left;
+    border: none;
+}
+#idName                         {grid-area: iname}
+label[htmlFor='idName']         {grid-area: lname}
+#idLastname                     {grid-area: ilastname}
+label[htmlFor='idLastname']     {grid-area: llastname}
+#idEmail                        {grid-area: iemail}
+label[htmlFor='idEmail']        {grid-area: lemail}
+#idTel                          {grid-area: itel}
+label[htmlFor='idTel']          {grid-area: ltel}
+#idPassword                     {grid-area: ipass}
+label[htmlFor='idPassword']     {grid-area: lpass}
+#idPassword2                    {grid-area: ipass2}
+label[htmlFor='idPassword2']    {grid-area: lpass2}
+#register                       {
+    grid-area: btnreg;
+    margin-top: 1rem;
+}
+h1{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+input {
+    padding: 0.5rem;
+}
