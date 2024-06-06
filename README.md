@@ -2,12 +2,6 @@
 
 url: https://jkadministrator.github.io/evaluacionModulo1/
 
-para generar la url se debe hacer lo siguiente:
-
-- instalar el paquete gh-pages (npm install gh-pages --save-dev)
-- Agregar al package.json el atributo "homepage" con la url de la pagina de github sobre la cual se realiza la publicacion
-- Agregar al package.json en los scripts los script de predeploy y deploy
-
 # Consigna
 
 Desarrollar el registro de una pagina web, en el registro tener los siguientes campos:
