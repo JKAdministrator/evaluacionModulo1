@@ -10,15 +10,18 @@ para generar la url se debe hacer lo siguiente:
 
 # Consigna
 
-Crear una aplicación con react cli llamada "myapp". 
+Desarrollar el registro de una pagina web, en el registro tener los siguientes campos:
 
-Desarrollar el maquetado de una pagina de detalle de un producto para un sitio de ecommerce, se deberán visualizar los siguientes datos:
+- Nombre
+- Apellido
+- Email
+- Telefono
+- Password
+- Confirmar password
 
-Nombre
-Descripción
-Precio
-SKU
-Cantidad disponible
-Realizar un maquetado con los datos, desarrollado con componentes.
+Realizar solo el maquetado utilizando react js y JSX, no se deben guardar los usuarios ni realizar lógica de validación de los mismos.
 
-Enviar el contenido de la aplicación creada (exceptuando la carpeta node_modules)
+Formato de entrega:
+  Link al repositorio o a la aplicación desplegada en servidor.
+
+Fecha de entrega: 14/06/2024 23:55 hs
